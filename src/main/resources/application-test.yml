@@ -1,0 +1,29 @@
+my:
+  greeting: Hello World
+  list:
+      values: One, Two, Three
+app:
+   name: My app
+   descripiton: Welcome to ${app.name}
+   
+server:
+      port: 7070
+      servlet:
+             contextPath: /myendpoint/
+
+dbValues: "{connectionString:'http://_____',  username: 'foo', password: 'pass'}"
+
+db:
+  connection: test-connection
+  host: 129.0.01
+  port: 2400
+  
+management:
+          server:
+                port: 7070
+          endpoints:
+                   web:
+                      exposure:
+                              include: "*"
+          
+
